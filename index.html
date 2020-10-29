@@ -350,6 +350,9 @@
                   <li>
                     <a href="#checktransactionpassword" class="toc-h2 toc-link" data-title="CheckTransactionPassword">CheckTransactionPassword</a>
                   </li>
+                  <li>
+                    <a href="#existtransactionpassword" class="toc-h2 toc-link" data-title="ExistTransactionPassword">ExistTransactionPassword</a>
+                  </li>
               </ul>
           </li>
           <li>
@@ -536,10 +539,10 @@
 <p>REQUEST BODY</p>
 </blockquote>
 <div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"a0bf8683a16b0a0a9f90d49c25745f95"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"a86db9cfb6b61c6866347acba16940a0"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"phone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"+886987654321"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"P@ssw0rd"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"phone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"+886933035648"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"password"</span><span class="p">:</span><span class="w"> </span><span class="s2">"WVkfkrHp9qCekY7RJVy/GOGiobVWWfk/w4RZeIysXzg="</span><span class="p">,</span><span class="w">
   </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1601266526</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
@@ -583,25 +586,25 @@
 <tr>
 <td>code</td>
 <td>string</td>
-<td>N</td>
+<td>Y</td>
 <td>MD5Hash產生 (appId + phone + password + time + hashKey)</td>
 </tr>
 <tr>
 <td>appId</td>
 <td>number</td>
-<td>N</td>
+<td>Y</td>
 <td>appId (測試使用9)</td>
 </tr>
 <tr>
 <td>phone</td>
 <td>string</td>
-<td>N</td>
+<td>Y</td>
 <td>有加國碼的手機號碼, 例:+886987654321</td>
 </tr>
 <tr>
 <td>password</td>
 <td>string</td>
-<td>N</td>
+<td>Y</td>
 <td>密碼</td>
 </tr>
 <tr>
@@ -826,7 +829,7 @@
 <div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ba83f3a72d6f1b25790dc2334cdfb7e9"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"phone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"+886987654321"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"phone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"+886933035648"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
   </span><span class="nl">"confirmCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"666262"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1601260773</span><span class="w">
@@ -895,8 +898,8 @@
 </tr>
 <tr>
 <td>confirmCode</td>
-<td>Y</td>
 <td>string</td>
+<td>Y</td>
 <td>輸入簡訊收到的驗證碼</td>
 </tr>
 <tr>
@@ -941,7 +944,7 @@
 <div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
   </span><span class="nl">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"phone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"+886987654321"</span><span class="w">
+  </span><span class="nl">"phone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"+886933035648"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
 <blockquote>
@@ -1918,22 +1921,16 @@
 <td>MD5Hash產生 (appId + uuid + time + transactionPassword + hashKey)</td>
 </tr>
 <tr>
-<td>appId</td>
-<td>number</td>
-<td>Y</td>
-<td>appId</td>
-</tr>
-<tr>
 <td>uuid</td>
 <td>string</td>
 <td>Y</td>
 <td>unique user id</td>
 </tr>
 <tr>
-<td>password</td>
-<td>string</td>
+<td>appId</td>
+<td>number</td>
 <td>Y</td>
-<td>目前帳號的密碼</td>
+<td>appId</td>
 </tr>
 <tr>
 <td>transactionPassword</td>
@@ -1942,16 +1939,124 @@
 <td>要設定的交易密碼</td>
 </tr>
 <tr>
+<td>time</td>
+<td>number</td>
+<td>Y</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
 <td>sessionToken</td>
 <td>string</td>
 <td>Y</td>
 <td>sessionToken</td>
+</tr>
+</tbody></table>
+
+<p><strong>Response Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>returnCode</td>
+<td>string</td>
+<td><a href="#returncode">ReturnCode</a></td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>message</td>
+</tr>
+<tr>
+<td>result</td>
+<td>object</td>
+<td>response data</td>
+</tr>
+</tbody></table>
+<h2 id='existtransactionpassword'>ExistTransactionPassword</h2>
+<p>Check if user&#39;s transaction password exist</p>
+
+<blockquote>
+<p>REQUEST BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"8934fc89281144982b41f3d8b37f7508"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1603942498</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c19233a2-1a17-4089-b7f9-74ef4de08a0a"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p>RESPONSE BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"returnCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p><strong>HTTP Request</strong></p>
+
+<p><code>POST /api/Account/resetPassword</code></p>
+
+<p><strong>Request Headers</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody></table>
+
+<p><strong>Request Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>Y</td>
+<td>MD5Hash產生 (appId + uuid + time + hashKey)</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>Y</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>Y</td>
+<td>appId</td>
 </tr>
 <tr>
 <td>time</td>
 <td>number</td>
 <td>Y</td>
 <td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>sessionToken</td>
+<td>string</td>
+<td>Y</td>
+<td>sessionToken</td>
 </tr>
 </tbody></table>
 
