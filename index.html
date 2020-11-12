@@ -362,6 +362,32 @@
               </ul>
           </li>
           <li>
+            <a href="#app" class="toc-h1 toc-link" data-title="App">App</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#homepageinfo" class="toc-h2 toc-link" data-title="HomepageInfo">HomepageInfo</a>
+                  </li>
+                  <li>
+                    <a href="#supportphonecountry" class="toc-h2 toc-link" data-title="SupportPhoneCountry">SupportPhoneCountry</a>
+                  </li>
+                  <li>
+                    <a href="#scanqr" class="toc-h2 toc-link" data-title="ScanQR">ScanQR</a>
+                  </li>
+                  <li>
+                    <a href="#send" class="toc-h2 toc-link" data-title="Send">Send</a>
+                  </li>
+                  <li>
+                    <a href="#payqr" class="toc-h2 toc-link" data-title="Payqr">Payqr</a>
+                  </li>
+                  <li>
+                    <a href="#collect" class="toc-h2 toc-link" data-title="Collect">Collect</a>
+                  </li>
+                  <li>
+                    <a href="#setcollect" class="toc-h2 toc-link" data-title="SetCollect">SetCollect</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
             <a href="#webwallet" class="toc-h1 toc-link" data-title="WebWallet">WebWallet</a>
               <ul class="toc-list-h2">
                   <li>
@@ -2103,7 +2129,7 @@
   </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
   </span><span class="nl">"phone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"+886987654321"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1603942498</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c19233a2-1a17-4089-b7f9-74ef4de08a0a"</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w"> </span><span class="s2">"z"</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div>
 <blockquote>
@@ -2336,6 +2362,1902 @@
 <td>qrid</td>
 <td>string</td>
 <td>qrid</td>
+</tr>
+</tbody></table>
+<h1 id='app'>App</h1><h2 id='homepageinfo'>HomepageInfo</h2>
+<p>Get homepage Information</p>
+
+<blockquote>
+<p>REQUEST BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w">  </span><span class="s2">"c19233a2-1a17-4089-b7f9-74ef4de08a0a"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p>RESPONSE BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"returnCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"news"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"newsID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2313"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"headline"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Is Bitcoin in 2020 Really Like the Early Internet?"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"photo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://static.coindesk.com/wp-content/uploads/2020/01/CERN_NEXT_Server_2010-07-01-710x458.jpg"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"brief"</span><span class="p">:</span><span class="w"> </span><span class="s2">"It’s a cliche at this point to compare bitcoin to the “early days of the internet,” since they are both examples of emerging technologies."</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"newsUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.coindesk.com/is-bitcoin-in-2020-really-like-the-early-internet"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"newsID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2314"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"headline"</span><span class="p">:</span><span class="w"> </span><span class="s2">"This Bearish Fractal Suggests Bitcoin Is On Its Way to $6,400, Again"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"photo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.newsbtc.com/wp-content/uploads/2019/11/shutterstock_759986413-1200x780.jpg"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"brief"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Around 12 hours ago as of the time of this article’s publishing, Bitcoin (BTC) closed its weekly candle. Arguably, it was bullish, for over the past seven days, the leading cryptocurrency has lept from $7,300 to as high as $8,450, marking a surge of 15%."</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"newsUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.newsbtc.com/2020/01/13/this-bearish-fractal-suggests-bitcoin-6400-again/"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"banners"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"bannerID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3313"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"headline"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Best Midsized Checked Luggage of 2020"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"photo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.tripsavvy.com/thmb/OL-cmZGlpe5kzfwEFsicea3e0mw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Lipault-Paris-Original-Plume-25-Inch-Spinner-4-c36e66c3c5ca4bdf87408c74b1db4e57.jpg"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"brief"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Lipault Paris Original Plume 25-Inch Spinner"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"landingUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.tripsavvy.com/lipault-paris-original-plume-spinner-review-4779862"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"bannerID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3315"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"headline"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The 9 Best Lightweight Luggage of 2020"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"photo"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.tripsavvy.com/thmb/0GcIMpCCSRx6DiKseBiisF_hflA=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/away-the-carry-on-5c9108ffc9e77c0001eb1ccc.jpg"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"brief"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Best Smart Suitcase: The Away Carry-On"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"landingUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.tripsavvy.com/away-carry-on-review-4764137"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"focus"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"大反派回來了！末日博士魯比尼提議將「衛生紙」代幣化：比黃金更有用的價值資產"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-03-16 13:48:26"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"image"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://s3.ap-northeast-1.amazonaws.com/static.blocktempo.com/2020/03/89959095_202798110820242_1644102017641086976_n-350x250.jpg"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"link"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.blocktempo.com/coronavirus-crypto-blockchain-toilet-paper/"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p><strong>HTTP Request</strong></p>
+
+<p><code>POST /api/App/homepageInfo</code></p>
+
+<p><strong>Request Headers</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody></table>
+
+<p><strong>Request Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>sessionToken</td>
+<td>string</td>
+<td>Y</td>
+<td>sessionToken</td>
+</tr>
+</tbody></table>
+
+<p><strong>Response Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>returnCode</td>
+<td>string</td>
+<td><a href="#returncode">ReturnCode</a></td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>message</td>
+</tr>
+<tr>
+<td>result</td>
+<td>object</td>
+<td>response data</td>
+</tr>
+</tbody></table>
+
+<p><strong>result</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>news</td>
+<td>object</td>
+<td>news</td>
+</tr>
+<tr>
+<td>banners</td>
+<td>object</td>
+<td>banners</td>
+</tr>
+<tr>
+<td>focus</td>
+<td>object</td>
+<td>banners</td>
+</tr>
+</tbody></table>
+
+<p><strong>news</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>newsID</td>
+<td>string</td>
+<td>news ID</td>
+</tr>
+<tr>
+<td>headline</td>
+<td>string</td>
+<td>headline</td>
+</tr>
+<tr>
+<td>photo</td>
+<td>string</td>
+<td>photo url</td>
+</tr>
+<tr>
+<td>brief</td>
+<td>string</td>
+<td>news note</td>
+</tr>
+<tr>
+<td>newsUrl</td>
+<td>string</td>
+<td>news page</td>
+</tr>
+<tr>
+<td>content</td>
+<td>string</td>
+<td>news content</td>
+</tr>
+</tbody></table>
+
+<p><strong>banners</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>bannerID</td>
+<td>string</td>
+<td>banner ID</td>
+</tr>
+<tr>
+<td>headline</td>
+<td>string</td>
+<td>headline</td>
+</tr>
+<tr>
+<td>photo</td>
+<td>string</td>
+<td>photo url</td>
+</tr>
+<tr>
+<td>brief</td>
+<td>string</td>
+<td>banner note</td>
+</tr>
+<tr>
+<td>landingUrl</td>
+<td>string</td>
+<td>banner landing page</td>
+</tr>
+</tbody></table>
+
+<p><strong>focus</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>title</td>
+<td>string</td>
+<td>title</td>
+</tr>
+<tr>
+<td>date</td>
+<td>string</td>
+<td>date</td>
+</tr>
+<tr>
+<td>image</td>
+<td>string</td>
+<td>image url</td>
+</tr>
+<tr>
+<td>link</td>
+<td>string</td>
+<td>focus page</td>
+</tr>
+</tbody></table>
+<h2 id='supportphonecountry'>SupportPhoneCountry</h2>
+<p>取得支持手機的國家</p>
+
+<blockquote>
+<p>REQUEST BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w">  </span><span class="s2">"c19233a2-1a17-4089-b7f9-74ef4de08a0a"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p>RESPONSE BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"returnCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"country"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"TW"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"US"</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p><strong>Request Headers</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody></table>
+
+<p><strong>HTTP Request</strong></p>
+
+<p><code>POST /api/App/supportPhoneCountry</code></p>
+
+<p><strong>Request Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>Y</td>
+<td>MD5Hash 產生 (appId + phone + password + time + hashKey)</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>Y</td>
+<td>appId (測試使用9)</td>
+</tr>
+<tr>
+<td>phone</td>
+<td>string</td>
+<td>Y</td>
+<td>有加國碼的手機號碼, 例:+886987654321</td>
+</tr>
+<tr>
+<td>password</td>
+<td>string</td>
+<td>Y</td>
+<td>密碼</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td>Y</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+</tbody></table>
+
+<p><strong>Response Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>returnCode</td>
+<td>string</td>
+<td><a href="#returncode">ReturnCode</a></td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>message</td>
+</tr>
+<tr>
+<td>result</td>
+<td>object</td>
+<td>response data</td>
+</tr>
+</tbody></table>
+
+<p><strong>result</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>country</td>
+<td>array</td>
+<td>an array of strings of supported country</td>
+</tr>
+</tbody></table>
+<h2 id='scanqr'>ScanQR</h2>
+<p>Scan QRCode to send or receive coin</p>
+
+<blockquote>
+<p>REQUEST BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"qrAddress"</span><span class="p">:</span><span class="w"> </span><span class="s2">"215897800000000383"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1604043082</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"scanFrom"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p>RESPONSE BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"returnCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"payId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3571"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"qrCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"215897800000000380"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"price"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"note"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"openPaymentType"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"wallets"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"walletAlisa"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coinAmount"</span><span class="p">:</span><span class="w"> </span><span class="mi">456659</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">456659</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TWD"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p><strong>Request Headers</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody></table>
+
+<p><strong>HTTP Request</strong></p>
+
+<p><code>POST /api/App/scanqr</code></p>
+
+<p><strong>Request Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>Y</td>
+<td>MD5Hash 產生 (appId + phone + password + time + hashKey)</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>Y</td>
+<td>appId (測試使用9)</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>Y</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>qrAddress</td>
+<td>string</td>
+<td>Y</td>
+<td>QR code address ()</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td>Y</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>scanform</td>
+<td>number</td>
+<td>Y</td>
+<td>0 = scan , 1 = pay , 2 = receive</td>
+</tr>
+<tr>
+<td>sessionToken</td>
+<td>string</td>
+<td>Y</td>
+<td>sessionToken</td>
+</tr>
+</tbody></table>
+
+<p><strong>Response Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>returnCode</td>
+<td>string</td>
+<td><a href="#returncode">ReturnCode</a></td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>message</td>
+</tr>
+<tr>
+<td>result</td>
+<td>object</td>
+<td>response data</td>
+</tr>
+</tbody></table>
+
+<p><strong>result</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>code</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>appId</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>payId</td>
+<td>string</td>
+<td>coinpay id</td>
+</tr>
+<tr>
+<td>qrCode</td>
+<td>string</td>
+<td>scanqr request qrcode</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>BTC, ETH, BPXX</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>number</td>
+<td>how many coins</td>
+</tr>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>法定貨幣 (USD, TWD…)</td>
+</tr>
+<tr>
+<td>price</td>
+<td>string</td>
+<td>BTC, ETH, BPXX list price</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>total value of the coins</td>
+</tr>
+<tr>
+<td>note</td>
+<td>string</td>
+<td>pay note</td>
+</tr>
+<tr>
+<td>openPaymentType</td>
+<td>number</td>
+<td>openPaymentType</td>
+</tr>
+<tr>
+<td>wallets</td>
+<td>array</td>
+<td>an array of wallet object</td>
+</tr>
+</tbody></table>
+
+<p><strong>wallets</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>walletID</td>
+<td>string</td>
+<td>wallet ID with the cointype that user has</td>
+</tr>
+<tr>
+<td>walletAlisa</td>
+<td>string</td>
+<td>wallet alias shows on the dropdown list</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>BTC, ETH, BPXX</td>
+</tr>
+<tr>
+<td>coinAmount</td>
+<td>number</td>
+<td>how many coins</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>total value of the coins</td>
+</tr>
+<tr>
+<td>rate</td>
+<td>number</td>
+<td>rate</td>
+</tr>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>法定貨幣 (USD, TWD…)</td>
+</tr>
+</tbody></table>
+<h2 id='send'>Send</h2>
+<p>Send coin by payId</p>
+
+<blockquote>
+<p>REQUEST BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"payId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3571"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"transId"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"note"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"gas"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"out"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"transactionPassword"</span><span class="p">:</span><span class="w"> </span><span class="s2">"WVkfkrHp9qCekY7RJVy/GOGiobVWWfk/w4RZeIysXzg="</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c19233a2-1a17-4089-b7f9-74ef4de08a0a"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1604043082</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"166"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p>RESPONSE BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"returnCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"696976324ae29c523417c917cd4b9da5"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1604384959</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"orderId"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"status"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"payId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3571"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"transid"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"txid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0x1f071e30594b77aefb78afcf2a4946a416d1fb53ab9483dc2eebc1308598ee3e"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="s2">"10"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"10"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"nextPage"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"txResultMessage"</span><span class="p">:</span><span class="w"> </span><span class="s2">"付款成功"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"350"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"txTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020/11/03 14:29"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TWD"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"displayType"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p><strong>Request Headers</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody></table>
+
+<p><strong>HTTP Request</strong></p>
+
+<p><code>POST /api/App/send</code></p>
+
+<p><strong>Request Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>Y</td>
+<td>MD5Hash</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>Y</td>
+<td>appId (測試使用9)</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>Y</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>payId</td>
+<td>string</td>
+<td>Y</td>
+<td>payId</td>
+</tr>
+<tr>
+<td>transId</td>
+<td>string</td>
+<td>Y</td>
+<td>transId</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>Y</td>
+<td>coinType</td>
+</tr>
+<tr>
+<td>note</td>
+<td>string</td>
+<td>Y</td>
+<td>note</td>
+</tr>
+<tr>
+<td>value</td>
+<td>string</td>
+<td>Y</td>
+<td>value</td>
+</tr>
+<tr>
+<td>gas</td>
+<td>string</td>
+<td>Y</td>
+<td>gas</td>
+</tr>
+<tr>
+<td>out</td>
+<td>bool</td>
+<td>Y</td>
+<td>out</td>
+</tr>
+<tr>
+<td>transactionPassword</td>
+<td>bool</td>
+<td>Y</td>
+<td>walletID</td>
+</tr>
+<tr>
+<td>sessionToken</td>
+<td>string</td>
+<td>Y</td>
+<td>sessionToken</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td>Y</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>coinTypeId</td>
+<td>string</td>
+<td>Y</td>
+<td>coinTypeId</td>
+</tr>
+</tbody></table>
+
+<p><strong>Response Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>returnCode</td>
+<td>string</td>
+<td><a href="#returncode">ReturnCode</a></td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>message</td>
+</tr>
+<tr>
+<td>result</td>
+<td>object</td>
+<td>response data</td>
+</tr>
+</tbody></table>
+
+<p><strong>result</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>md5hash</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>appId</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>orderId</td>
+<td>string</td>
+<td>order id</td>
+</tr>
+<tr>
+<td>status</td>
+<td>string</td>
+<td>transaction status</td>
+</tr>
+<tr>
+<td>payId</td>
+<td>string</td>
+<td>coinPayId</td>
+</tr>
+<tr>
+<td>transid</td>
+<td>string</td>
+<td>transid</td>
+</tr>
+<tr>
+<td>txid</td>
+<td>string</td>
+<td>transaction ID</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>string</td>
+<td>how many coins</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>total value of the coins</td>
+</tr>
+<tr>
+<td>nextPage</td>
+<td>string</td>
+<td></td>
+</tr>
+<tr>
+<td>txResultMessage</td>
+<td>number</td>
+<td>transaction result message</td>
+</tr>
+<tr>
+<td>walletID</td>
+<td>array</td>
+<td>wallet ID</td>
+</tr>
+<tr>
+<td>txTime</td>
+<td>string</td>
+<td>transaction time</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>coin type</td>
+</tr>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>法定貨幣 (USD, TWD…)</td>
+</tr>
+<tr>
+<td>displayType</td>
+<td>string</td>
+<td>display type</td>
+</tr>
+</tbody></table>
+<h2 id='payqr'>Payqr</h2>
+<p>取得付款用的QRCode</p>
+
+<blockquote>
+<p>REQUEST BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"940de875a4103ab644bbd6f56f74ea48"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1601260773</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p>RESPONSE BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"returnCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"29a4e641ccccada332e6824fb7c75f3f"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1604656924</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"qrCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"015814700000003579"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coins"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"166"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"350"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"164"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPHK"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPHK"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"352"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"167"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TSLP"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TSLP"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"403"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"165"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPUS"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPUS"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"407"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"95"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USDT"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USDT"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"414"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p><strong>Request Headers</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody></table>
+
+<p><strong>HTTP Request</strong></p>
+
+<p><code>POST /api/App/qrpay</code></p>
+
+<p><strong>Request Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>Y</td>
+<td>MD5Hash(appId + uuid + time + hashKey)</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>Y</td>
+<td>appId</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>Y</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>Y</td>
+<td>coinType</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td>Y</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>sessionToken</td>
+<td>string</td>
+<td>N</td>
+<td>sessionToken</td>
+</tr>
+</tbody></table>
+
+<p><strong>Response Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>returnCode</td>
+<td>string</td>
+<td><a href="#returncode">ReturnCode</a></td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>message</td>
+</tr>
+<tr>
+<td>result</td>
+<td>object</td>
+<td>response data</td>
+</tr>
+</tbody></table>
+
+<p><strong>result</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>md5hash</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>appId</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>qrCode</td>
+<td>string</td>
+<td>qraddress</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>coin type</td>
+</tr>
+<tr>
+<td>coins</td>
+<td>array</td>
+<td>your coins</td>
+</tr>
+</tbody></table>
+
+<p><strong>coins</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>coinTypeid</td>
+<td>string</td>
+<td>coin type ID</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>coin type</td>
+</tr>
+<tr>
+<td>coinName</td>
+<td>string</td>
+<td>coin name</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>number</td>
+<td>amount</td>
+</tr>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>法定貨幣 (USD, TWD…)</td>
+</tr>
+<tr>
+<td>walletID</td>
+<td>string</td>
+<td>wallet ID</td>
+</tr>
+<tr>
+<td>rate</td>
+<td>number</td>
+<td>rate</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>value of the coin type</td>
+</tr>
+</tbody></table>
+<h2 id='collect'>Collect</h2>
+<p>取得收款用的QRCode(未設定金額)</p>
+
+<blockquote>
+<p>REQUEST BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"76c5df607a391b7dddcdc20fda618696"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1601260773</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p>RESPONSE BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"returnCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"b649cc68a8a2aba115b22eb5f98cf530"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1604893195</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"bar"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"countDownTime"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"qrCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"215823900000000380"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"userName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"yuchi1"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coins"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"166"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"350"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"164"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPHK"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPHK"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"352"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"167"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TSLP"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TSLP"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"403"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"165"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPUS"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPUS"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"407"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">},</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"coinTypeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"95"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USDT"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USDT"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="s2">"414"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">],</span><span class="w">
+        </span><span class="nl">"fiats"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+            </span><span class="p">{</span><span class="w">
+                </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TWD"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"fiatName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"New Taiwan Dollar"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p><strong>Request Headers</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody></table>
+
+<p><strong>HTTP Request</strong></p>
+
+<p><code>POST /api/App/collect</code></p>
+
+<p><strong>Request Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>Y</td>
+<td>MD5Hash(appId + uuid + time + hashKey)</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>Y</td>
+<td>appId</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>Y</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>Y</td>
+<td>coinType</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td>Y</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>sessionToken</td>
+<td>string</td>
+<td>N</td>
+<td>sessionToken</td>
+</tr>
+</tbody></table>
+
+<p><strong>Response Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>returnCode</td>
+<td>string</td>
+<td><a href="#returncode">ReturnCode</a></td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>message</td>
+</tr>
+<tr>
+<td>result</td>
+<td>object</td>
+<td>response data</td>
+</tr>
+</tbody></table>
+
+<p><strong>result</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>md5hash</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>appId</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>bar</td>
+<td>bool</td>
+<td>是否顯示倒數</td>
+</tr>
+<tr>
+<td>countDownTime</td>
+<td>number</td>
+<td>倒數時間</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>coin type</td>
+</tr>
+<tr>
+<td>qrCode</td>
+<td>string</td>
+<td>qraddress</td>
+</tr>
+<tr>
+<td>userName</td>
+<td>string</td>
+<td>使用者名稱</td>
+</tr>
+<tr>
+<td>coins</td>
+<td>array</td>
+<td>your coins</td>
+</tr>
+<tr>
+<td>fiats</td>
+<td>array</td>
+<td>your fiatcoins</td>
+</tr>
+</tbody></table>
+
+<p><strong>coins</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>coinTypeid</td>
+<td>string</td>
+<td>coin type ID</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>coin type</td>
+</tr>
+<tr>
+<td>coinName</td>
+<td>string</td>
+<td>coin name</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>number</td>
+<td>amount</td>
+</tr>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>法定貨幣 (USD, TWD…)</td>
+</tr>
+<tr>
+<td>walletID</td>
+<td>string</td>
+<td>錢包ID</td>
+</tr>
+<tr>
+<td>rate</td>
+<td>number</td>
+<td>rate</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>value of the coin type</td>
+</tr>
+</tbody></table>
+
+<p><strong>fiats</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>法定貨幣</td>
+</tr>
+<tr>
+<td>fiatName</td>
+<td>string</td>
+<td>法定貨幣名稱</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>法定貨幣價值</td>
+</tr>
+<tr>
+<td>walletID</td>
+<td>string</td>
+<td>錢包ID</td>
+</tr>
+</tbody></table>
+<h2 id='setcollect'>SetCollect</h2>
+<p>取得收款用的QRCode(有設定金額)</p>
+
+<blockquote>
+<p>REQUEST BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"940de875a4103ab644bbd6f56f74ea48"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"isCash"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"note"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"friendUUID"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TWD"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1601260773</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sessionToken"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<blockquote>
+<p>RESPONSE BODY</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"returnCode"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"9b30a8b92a61a3a1bb4a0e9926e4cf1f"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"USPVD87"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"appId"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"time"</span><span class="p">:</span><span class="w"> </span><span class="mi">1605173407</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"qrCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"315896300000003669"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"countdown"</span><span class="p">:</span><span class="w"> </span><span class="mi">600</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"expiryTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-11-12T09:35:06.9670394Z"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"coins"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"coinTypeId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"204"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coinType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"BPTW"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"coinName"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"amount"</span><span class="p">:</span><span class="w"> </span><span class="mi">8709</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TWD"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"rate"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">8709</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"fiats"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"fiatType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"TWD"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"fiatName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"New Taiwan Dollar"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"walletID"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"publicAddress"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"uri"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p><strong>Request Headers</strong></p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody></table>
+
+<p><strong>HTTP Request</strong></p>
+
+<p><code>POST /api/App/setcollect</code></p>
+
+<p><strong>Request Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Required</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>Y</td>
+<td>MD5Hash(appId + uuid + time + hashKey)</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>Y</td>
+<td>appId</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>Y</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>isCash</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否收現金</td>
+</tr>
+<tr>
+<td>note</td>
+<td>string</td>
+<td>N</td>
+<td>備註</td>
+</tr>
+<tr>
+<td>friendUUD</td>
+<td>string</td>
+<td>N</td>
+<td>朋友的UUID</td>
+</tr>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>Y</td>
+<td>法定貨幣</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>Y</td>
+<td>代幣類型</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>number</td>
+<td>Y</td>
+<td>代幣的數量</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td>Y</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>sessionToken</td>
+<td>string</td>
+<td>N</td>
+<td>sessionToken</td>
+</tr>
+</tbody></table>
+
+<p><strong>Response Body</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>returnCode</td>
+<td>string</td>
+<td><a href="#returncode">ReturnCode</a></td>
+</tr>
+<tr>
+<td>message</td>
+<td>string</td>
+<td>message</td>
+</tr>
+<tr>
+<td>result</td>
+<td>object</td>
+<td>response data</td>
+</tr>
+</tbody></table>
+
+<p><strong>result</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>code</td>
+<td>string</td>
+<td>md5hash</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>string</td>
+<td>unique user id</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>number</td>
+<td>appId</td>
+</tr>
+<tr>
+<td>time</td>
+<td>number</td>
+<td><a href="https://www.unixtimestamp.com/">unix timestamp</a></td>
+</tr>
+<tr>
+<td>qrCode</td>
+<td>string</td>
+<td>qrAddress</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>代幣類型</td>
+</tr>
+<tr>
+<td>unit</td>
+<td>string</td>
+<td>顯示的法幣名稱</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>法幣價值</td>
+</tr>
+<tr>
+<td>countdown</td>
+<td>number</td>
+<td>倒數時間</td>
+</tr>
+<tr>
+<td>expiryTime</td>
+<td>string</td>
+<td>過期時間</td>
+</tr>
+<tr>
+<td>coins</td>
+<td>array</td>
+<td>your coins</td>
+</tr>
+<tr>
+<td>fiats</td>
+<td>array</td>
+<td>your fiatcoins</td>
+</tr>
+<tr>
+<td>publicAddress</td>
+<td>string</td>
+<td>publicAddress</td>
+</tr>
+<tr>
+<td>uri</td>
+<td>string</td>
+<td>uri</td>
+</tr>
+</tbody></table>
+
+<p><strong>coins</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>coinTypeid</td>
+<td>string</td>
+<td>代幣類型 ID</td>
+</tr>
+<tr>
+<td>coinType</td>
+<td>string</td>
+<td>代幣類型</td>
+</tr>
+<tr>
+<td>coinName</td>
+<td>string</td>
+<td>代幣名稱</td>
+</tr>
+<tr>
+<td>amount</td>
+<td>number</td>
+<td>代幣數量</td>
+</tr>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>法定貨幣 (USD, TWD…)</td>
+</tr>
+<tr>
+<td>walletID</td>
+<td>string</td>
+<td>錢包ID</td>
+</tr>
+<tr>
+<td>rate</td>
+<td>number</td>
+<td>匯率</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>此代幣的法幣價值</td>
+</tr>
+</tbody></table>
+
+<p><strong>fiats</strong></p>
+
+<table><thead>
+<tr>
+<th>Attribute</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>fiatType</td>
+<td>string</td>
+<td>法定貨幣</td>
+</tr>
+<tr>
+<td>fiatName</td>
+<td>string</td>
+<td>法定貨幣名稱</td>
+</tr>
+<tr>
+<td>value</td>
+<td>number</td>
+<td>法定貨幣價值</td>
+</tr>
+<tr>
+<td>walletID</td>
+<td>string</td>
+<td>錢包ID</td>
 </tr>
 </tbody></table>
 <h1 id='webwallet'>WebWallet</h1><h2 id='register-2'>Register</h2>
@@ -2973,7 +4895,7 @@
 <tr>
 <td>fiatType</td>
 <td>string</td>
-<td>法定貨幣類型</td>
+<td>法定貨幣 (USD, TWD…)</td>
 </tr>
 <tr>
 <td>coins</td>
@@ -3019,7 +4941,7 @@
 <tr>
 <td>fiatType</td>
 <td>string</td>
-<td>法定貨幣</td>
+<td>法定貨幣 (USD, TWD…)</td>
 </tr>
 <tr>
 <td>walletID</td>
@@ -3050,7 +4972,7 @@
 <tr>
 <td>fiatType</td>
 <td>string</td>
-<td>法定貨幣</td>
+<td>法定貨幣 (USD, TWD…)</td>
 </tr>
 <tr>
 <td>fiatName</td>
